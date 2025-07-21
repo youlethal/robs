@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Robs ",
+    "TEMPLATE_ID": "restaurant-modern",
+    "MODULES": "Gallery,booking,staff",
+    "THEME": "Light"
+  }
+}
